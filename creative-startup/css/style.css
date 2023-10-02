@@ -1006,7 +1006,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     right: 0;
     bottom: 0;
     left: 60%;
-    background-color:#2e3b5b;
+    background-color:#3f517d;
 }
 .about-sec .services-area{
     /*background-color:#554c86;*/
@@ -1022,7 +1022,8 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     right: 10px;
     bottom: 0;
     left: 0;
-    background-color:#2e3b5b;
+    /* background-color: #f3f5f7; */
+    background-color: #3f517d;
 }
 .about-sec .services-area .services{
     display: flex;
@@ -1062,7 +1063,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 
 .about-sec .about-area{
     /*background-color: #39d47a;*/
-    background-color: #2e3b5b;
+    background-color: #3f517d;
     padding-left: 50px;
 }
 .about-sec .about-area .about-inner-content .anim-btn{
@@ -1461,11 +1462,11 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     padding-top: 10px;
 }
 .testimonial-sec .right-overlay{
-    background-color: #2e3b5b;
+    background-color: #3f517d;
     top:10px;
 }
 .testimonial-sec .testimonial-area{
-    background-color: #2e3b5b;
+    background-color: #3f517d;
 }
 .testimonial-sec .testimonial-area .container{
     max-width: 1140px;
@@ -2324,7 +2325,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
         margin-bottom: 60px;
     }
     .about-sec .about-overlay {
-        background-color: #2e3b5b;
+        background-color: #3f517d;
         left: 0;
     }
     .about-sec .about-area {
