@@ -444,7 +444,7 @@ header .top-social-links li a:hover i{
 
 /*main navigation*/
 header .simple-nav-logo{
-    background-color: #000000;
+    background-color: white;
     padding: 35px 10px 40px 10px;
     margin-right: 0;
     text-align: center;
@@ -675,9 +675,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     -o-transition: all .3s linear;
     transition: all .3s linear;
     width: 36px;
-    padding: 6px;
     margin-right: 1rem;
-    margin-top: .4rem;
     position: absolute;
     right: 30px;
     top: 61px;
