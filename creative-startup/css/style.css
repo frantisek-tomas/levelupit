@@ -364,13 +364,6 @@ ul{margin-bottom: 0;}
 /* ===================================
         Header
    ====================================== */
-header{
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*right: 0;*/
-    /*top: 0;*/
-    /*height: 269.796875px;*/
-}
 header .upper-nav{
     padding-top: 50px;
 }
