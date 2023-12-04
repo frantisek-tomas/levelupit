@@ -1798,12 +1798,12 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     z-index: 2;
 }
 .loader-32 .ball-wrapper:nth-child(2) .ball{
-    background-color: #eac65a;
-    border: 1px solid #eac65a;
+    background-color: #52f3ff;
+    border: 1px solid #52f3ff;
 }
 .loader-32 .ball-wrapper:nth-child(3) .ball{
-    background-color: #2e3b5b;
-    border: 1px solid #2e3b5b;
+    background-color: #09477c;
+    border: 1px solid #09477c;
 }
 .loader-32 .shadow {
     position: absolute;
