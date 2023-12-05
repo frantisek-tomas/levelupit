@@ -443,6 +443,7 @@ header .simple-nav-logo{
     text-align: center;
     position: relative;
     z-index: 111;
+    width: 400px;
 }
 header .fixed-nav-logo{
     display: none;
