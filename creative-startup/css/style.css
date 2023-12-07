@@ -437,16 +437,18 @@ header .top-social-links li a:hover i{
 
 /*main navigation*/
 header .simple-nav-logo{
-    background-color: white;
+    background-color: #09477c;
+    border: 1px solid white;
     padding: 35px 10px 40px 10px;
     margin-right: 0;
     text-align: center;
     position: relative;
     z-index: 111;
-    width: 400px;
+    width: 350px;
 }
 header .fixed-nav-logo{
     display: none;
+    width: 500px;
 }
 header .navbar-brand img{
     max-width: 80%;
