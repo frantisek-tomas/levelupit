@@ -111,7 +111,7 @@ ul{margin-bottom: 0;}
 /* button size */
 
 /* background color */
-.bg-blue{background-color: #09477c;}
+.bg-blue{background-color: white;}
 
 /* text-color */
 .red-color{color: #f71c52;}
@@ -165,14 +165,27 @@ ul{margin-bottom: 0;}
     padding-bottom: 120px;
  }
 .heading{
-    color: #FFFFFF;
+    color: white;
     font-family: Oswald, sans-serif;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 50px;
 }
+.heading-black{
+    color: black;
+    font-family: Oswald, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.text-black{
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
 .text{
-    color: #FFFFFF;
+    color: white;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -366,6 +379,7 @@ ul{margin-bottom: 0;}
    ====================================== */
 header .upper-nav{
     padding-top: 50px;
+    background-color: rgb(9, 71, 124);
 }
 header .upper-nav .top-personal-info{
     padding-left: 0;
@@ -379,7 +393,7 @@ header .upper-nav .top-personal-info li:last-child{
     margin-right: 0;
 }
 header .upper-nav .top-personal-info li a{
-    color: #333333;
+    color: white;
     font-size: 14px;
     font-family: Roboto, sans-serif;
     transition: .5s ease;
@@ -454,6 +468,7 @@ header .navbar-brand img{
     max-width: 80%;
 }
 header .main-navigation{
+    background-color: #09477c;
     padding-top: 30px;
 }
 header .main-navigation .navbar{
@@ -465,7 +480,7 @@ header .main-navigation nav .navbar-nav .nav-item{
 }
 header .main-navigation nav .navbar-nav .nav-item .nav-link{
     padding-top: 0;
-    color: #000000;
+    color: white;
     font-family: Oswald, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -906,7 +921,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 }
 
 .slider-area .bg-overlay{
-    background-color:#09477c;
+    background-color: white;
     width: 50%;
     left: 0;
 }
@@ -916,9 +931,8 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     padding-bottom: 100px;
 }
 .slider-area .container .inner-bg-overlay{
-    background-color:#09477c;
+    background-color: white;
     position: absolute;
-    /*width: 50%;*/
     left: 0;
     right: 12%;
     bottom: 0;
@@ -938,7 +952,8 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     overflow: hidden;
 }
 .slider-area .slider-detail .slider-slide .slider-inner-content .slide-heading{
-    color: #FFFFFF;
+    color: black;
+    text-align: right;
     font-family: Oswald, sans-serif;
     font-size: 60px;
     font-weight: 700;
@@ -948,7 +963,8 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     display: block;
 }
 .slider-area .slider-detail .slider-slide .slider-inner-content .slide-text{
-    color: #FFFFFF;
+    color: black;
+    text-align: right;
     font-weight: 300;
     font-family: Roboto, sans-serif;
     font-size: 16px;
@@ -1000,7 +1016,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     right: 0;
     bottom: 0;
     left: 60%;
-    background-color:#09477c;
+    background-color: white;
 }
 .about-sec .services-area{
     display: flex;
@@ -1054,7 +1070,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 /*about detail*/
 
 .about-sec .about-area{
-    background-color: #09477c;
+    background-color: white;
     padding-left: 50px;
 }
 .about-sec .about-area .about-inner-content .anim-btn{
@@ -1453,11 +1469,11 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     padding-top: 10px;
 }
 .testimonial-sec .right-overlay{
-    background-color: #09477c;
+    background-color: white;
     top:10px;
 }
 .testimonial-sec .testimonial-area{
-    background-color: #09477c;
+    background-color: white;
 }
 .testimonial-sec .testimonial-area .container{
     max-width: 1140px;
@@ -1518,7 +1534,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     padding-top: 10px;
 }
 .blog-sec .left-overlay{
-    background-color: #09477c;
+    background-color: #52f3ff;
     top:10px;
 }
 
@@ -1532,7 +1548,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
     bottom: 0;
     top: 0;
     right: 34%;
-    background-color: #09477c;
+    background-color: #52f3ff;
 }
 .blog-sec .blog-area .blog-detail .heading{
     margin-bottom: 40px;
