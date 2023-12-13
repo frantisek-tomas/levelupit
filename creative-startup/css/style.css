@@ -2289,7 +2289,7 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
         right: 0;
     }
     .header-appear ~ .side-menu .btn-close {
-        top: 30px;
+        top: 50px;
         right: 23px;
     }
     .header-appear .fixed-nav-logo{
@@ -2297,7 +2297,8 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
         transform: translateY(-3px);
     }
     .header-appear .fixed-nav-logo img {
-        width: 60%;
+        width: 30%;
+        margin-left: 25px;
     }
     .side-menu {
         width: 100%;
