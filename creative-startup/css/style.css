@@ -172,18 +172,33 @@ ul{margin-bottom: 0;}
     margin-bottom: 50px;
 }
 .heading-black{
+    text-align: right;
     color: black;
     font-family: Oswald, sans-serif;
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 50px;
 }
-.text-black{
+.text-black-a{
     color: black;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 300;
 }
+
+.text-black-a{
+    text-align: right;
+    color: black;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.text-black-asd-asd{
+    text-align: right;
+    color: white;
+}
+
 .text{
     color: white;
     font-family: Roboto, sans-serif;
@@ -241,6 +256,24 @@ ul{margin-bottom: 0;}
     z-index: -1;
 }
 
+.heading-black-sd{
+    text-align: left;
+    color: black;
+    font-family: Oswald, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.heading-black-ll{
+    text-align: right;
+    color: black;
+    font-family: Oswald, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
 .pink-btn{
     border: solid 1px #f71c52;
     color: #FFFFFF;
@@ -275,6 +308,14 @@ ul{margin-bottom: 0;}
     border-radius: 50%;
     transition: 0.5s;
     z-index: -1;
+}
+
+.header-right{
+    text-align: right;
+}
+
+.text-right{
+    text-align: right;
 }
 
 .purple-btn{
@@ -2236,6 +2277,47 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
 
 
 @media screen and (max-width:767px){
+
+    .text-black-asd-asd{
+        text-align: center;
+    }
+
+    .header-right{
+        text-align: center;
+    }
+
+    .text-right{
+        text-align: center;
+    }
+
+    .text-black-asd{
+        text-align: center;
+    }
+
+    .text-black-a{
+        text-align: center;
+    }
+
+    .heading-black{
+        text-align: center;
+    }
+
+    .heading-black-sd{
+        text-align: center;
+    }
+
+    .heading-black-ll{
+        text-align: center;
+    }
+
+    .blog-sec .blog-area .blog-detail .heading{
+        text-align: center;
+    }
+
+    .slider-area .slider-detail .slider-slide .slider-inner-content .slide-heading {
+        text-align: center;
+    }
+
     header .upper-nav{
         display: none;
     }
@@ -2316,8 +2398,10 @@ header .main-navigation nav .navbar-nav .nav-item:nth-child(3n) .nav-link:hover,
         font-size: 40px;
     }
     .slider-area .slider-detail .slider-slide .slider-inner-content .slide-text {
+        text-align: center;
         width: 100%;
     }
+
     .slider-area .slider-arrows {
         display: none;
     }
