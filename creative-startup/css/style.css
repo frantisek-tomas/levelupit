@@ -440,9 +440,6 @@ header .upper-nav .top-personal-info li a{
     transition: .5s ease;
     font-weight: 400;
 }
-header .upper-nav .top-personal-info li a:hover{
-    color: #09477c;
-}
 header .upper-nav .top-personal-info li a i{
     font-size: 18px;
     color: #f71c52;
